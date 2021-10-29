@@ -30,6 +30,7 @@
               />
             </router-link>
           </SfListItem>
+          dasdasdasdasds
           <SfListItem>
             <router-link to="/privacy" exact>
               <SfMenuItem
@@ -38,7 +39,8 @@
               />
             </router-link>
           </SfListItem>
-          <SfListItem v-if="multistoreEnabled">
+          dasdasdasdasds
+          <SfListItem>
             <SfMenuItem
               @click.native="showLanguageSwitcher"
               class="sf-footer__menu-item"
@@ -50,6 +52,7 @@
           </SfListItem>
         </SfList>
       </SfFooterColumn>
+      asdasdasdasdasdsa
       <SfFooterColumn :title="$t('Social')" class="social-column">
         <div class="social-icon">
           <img
